@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MaStationBlanche - Protégez vos fichiers simplement</title>
+  
+  <!-- PayPal SDK placé ici dans le head -->
+  <script 
+    src="https://www.paypal.com/sdk/js?client-id=BAAX9u-idgvfcpeEe_kUd9PphV1XhAoTGTGB1b-l8jY-JmEcovYeNVo_yksngQYrJG58UHvHhSiNIVpqLU&components=hosted-buttons&disable-funding=venmo&currency=EUR">
+  </script>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #1565c0;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .features, .instructions {
+      margin-top: 30px;
+    }
+    .features h2, .instructions h2 {
+      color: #1565c0;
+    }
+    ul, ol {
+      padding-left: 20px;
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    /* Responsive */
+    @media (max-width: 600px) {
+      section {
+        padding: 20px 10px;
+      }
+      h1 {
+        font-size: 24px;
+      }
+      h2 {
+        font-size: 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>MaStationBlanche</h1>
+  <p>La manière la plus simple de protéger vos fichiers contre les virus</p>
+</header>
+
+<section>
+  <div class="features">
+    <h2>Ce que MaStationBlanche fait pour vous :</h2>
+    <ul>
+      <li>Scanne rapidement vos fichiers pour détecter les menaces potentielles.</li>
+      <li>Protège vos fichiers sensibles avant de les ouvrir.</li>
+      <li>Sécurise vos clés USB, cartes SD et autres périphériques.</li>
+      <li>Empêche l'installation de programmes malveillants.</li>
+      <li>Interface simple et intuitive, accessible à tous.</li>
+    </ul>
+  </div>
+
+  <div class="instructions">
+    <h2>Comment utiliser MaStationBlanche :</h2>
+    <ol>
+      <li>Téléchargez l'application.</li>
+      <li>Installez-la en quelques secondes.</li>
+      <li>Ouvrez MaStationBlanche.</li>
+      <li>Sélectionnez un fichier, un dossier ou une clé USB à scanner.</li>
+      <li>Lancez le scan et recevez immédiatement votre rapport !</li>
+    </ol>
+  </div>
+
+  <!-- PayPal Hosted Button -->
+  <div id="paypal-container-GBYQB59TNRHLY" style="text-align:center; margin-top:40px;"></div>
+  <script>
+    paypal.HostedButtons({
+      hostedButtonId: "GBYQB59TNRHLY",
+    }).render("#paypal-container-GBYQB59TNRHLY");
+  </script>
+
+</section>
+
+<footer>
+  <p>&copy; 2025 MaStationBlanche - Votre premier rempart contre les virus</p>
+</footer>
+
+</body>
+</html>
